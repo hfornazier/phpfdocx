@@ -11,12 +11,6 @@
 /*
 */
 include 'PhpFDocx.php';
-$doc  = 'test1colchete.docx';
-//$doc  = 'test2.docx';
-//$doc  = 'test3.docx';
-//$doc  = 'test4.docx';
-//$doc  = 'test5.docx';
-//$doc  = 'test6.docx';
 
 if(!isset( $_GET['f'] )) {
    echo 'No file!';	
